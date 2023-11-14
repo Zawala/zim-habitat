@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-14 09:51:50.702897",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "property_type",
+  "host",
+  "location",
+  "column_break_kqaxc",
+  "price_per_night",
+  "beds",
+  "bedrooms",
+  "descriptions_section",
+  "description",
+  "column_break_hshcb",
+  "image_1",
+  "image_2",
+  "image_3",
+  "image_4",
+  "reviews_section",
+  "reviews"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Long Text",
+   "label": "Location"
+  },
+  {
+   "fieldname": "property_type",
+   "fieldtype": "Select",
+   "label": "Property Type",
+   "options": "House\nFlat\nBed and Breakfast\nBoutique Hotel"
+  },
+  {
+   "fieldname": "price_per_night",
+   "fieldtype": "Currency",
+   "label": "Price Per Night"
+  },
+  {
+   "fieldname": "beds",
+   "fieldtype": "Int",
+   "label": "Beds"
+  },
+  {
+   "fieldname": "bedrooms",
+   "fieldtype": "Int",
+   "label": "Bedrooms"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "reviews",
+   "fieldtype": "Table",
+   "label": "Reviews",
+   "options": "Review"
+  },
+  {
+   "fieldname": "column_break_kqaxc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "descriptions_section",
+   "fieldtype": "Section Break",
+   "label": "Descriptions"
+  },
+  {
+   "fieldname": "column_break_hshcb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reviews_section",
+   "fieldtype": "Section Break",
+   "label": "Reviews"
+  },
+  {
+   "fieldname": "host",
+   "fieldtype": "Data",
+   "label": "Host"
+  },
+  {
+   "fieldname": "image_1",
+   "fieldtype": "Attach Image",
+   "label": "Picture"
+  },
+  {
+   "fieldname": "image_2",
+   "fieldtype": "Attach Image",
+   "label": "Picture"
+  },
+  {
+   "fieldname": "image_3",
+   "fieldtype": "Attach Image",
+   "label": "Picture"
+  },
+  {
+   "fieldname": "image_4",
+   "fieldtype": "Attach Image",
+   "label": "Picture"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-14 12:29:48.323110",
+ "modified_by": "Administrator",
+ "module": "Zim Habitat",
+ "name": "Property",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
