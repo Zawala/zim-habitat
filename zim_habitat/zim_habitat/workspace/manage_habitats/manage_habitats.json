@@ -1,0 +1,65 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"jBTHbOpl6e\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Manage Habitats</span>\",\"col\":12}},{\"id\":\"p9ILcUGFvy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Properties\",\"col\":3}},{\"id\":\"WSCZXFKr1u\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"j30Q5mWlw_\",\"type\":\"card\",\"data\":{\"card_name\":\"Manage Housing And Users\",\"col\":4}}]",
+ "creation": "2023-11-14 17:11:07.944398",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "liabilities",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Manage Habitats",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manage Housing And Users",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Users",
+   "link_count": 0,
+   "link_to": "User",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Properties",
+   "link_count": 0,
+   "link_to": "Property",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-14 17:13:49.511924",
+ "modified_by": "Administrator",
+ "module": "Zim Habitat",
+ "name": "Manage Habitats",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "New",
+   "label": "New Properties",
+   "link_to": "Property",
+   "type": "DocType"
+  }
+ ],
+ "title": "Manage Habitats"
+}
