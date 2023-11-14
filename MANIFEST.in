@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include zim_habitat *.css
+recursive-include zim_habitat *.csv
+recursive-include zim_habitat *.html
+recursive-include zim_habitat *.ico
+recursive-include zim_habitat *.js
+recursive-include zim_habitat *.json
+recursive-include zim_habitat *.md
+recursive-include zim_habitat *.png
+recursive-include zim_habitat *.py
+recursive-include zim_habitat *.svg
+recursive-include zim_habitat *.txt
+recursive-exclude zim_habitat *.pyc
