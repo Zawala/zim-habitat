@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-15 09:10:56.268153",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "properties",
+  "guest",
+  "start_date",
+  "end_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "properties",
+   "fieldtype": "Link",
+   "label": "Properties",
+   "options": "Property"
+  },
+  {
+   "fieldname": "guest",
+   "fieldtype": "Data",
+   "label": "Guest"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Data",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Data",
+   "label": "End Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-15 09:10:56.268153",
+ "modified_by": "Administrator",
+ "module": "Zim Habitat",
+ "name": "Booking",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

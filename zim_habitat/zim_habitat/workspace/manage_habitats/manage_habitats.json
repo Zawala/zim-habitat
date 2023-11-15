@@ -16,7 +16,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Manage Housing And Users",
-   "link_count": 2,
+   "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -39,9 +39,19 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookings",
+   "link_count": 0,
+   "link_to": "Booking",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-11-14 17:13:49.511924",
+ "modified": "2023-11-15 09:37:12.192166",
  "modified_by": "Administrator",
  "module": "Zim Habitat",
  "name": "Manage Habitats",

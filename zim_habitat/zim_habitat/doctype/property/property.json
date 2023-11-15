@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:title",
  "creation": "2023-11-14 09:51:50.702897",
  "default_view": "List",
  "doctype": "DocType",
@@ -29,7 +30,11 @@
   {
    "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Title"
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Title",
+   "unique": 1
   },
   {
    "fieldname": "location",
@@ -39,6 +44,9 @@
   {
    "fieldname": "property_type",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Property Type",
    "options": "House\nFlat\nBed and Breakfast\nBoutique Hotel"
   },
@@ -89,6 +97,9 @@
   {
    "fieldname": "host",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Host"
   },
   {
@@ -114,10 +125,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-14 12:29:48.323110",
+ "modified": "2023-11-15 09:12:02.388294",
  "modified_by": "Administrator",
  "module": "Zim Habitat",
  "name": "Property",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

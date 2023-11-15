@@ -45,6 +45,10 @@ app_license = "MIT"
 #	"Role": "home_page"
 # }
 
+role_home_page = {
+	"Guest": "home"
+ }
+
 # Generators
 # ----------
 
