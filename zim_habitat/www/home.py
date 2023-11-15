@@ -29,7 +29,6 @@ def get_context(context):
   "image_4",
  ]
 	houses=frappe.db.get_all('Property',fields=fields,  as_list=True)
-	print(houses)
 	context.houses=houses
 
 #__________________________________________________________
