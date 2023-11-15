@@ -9,6 +9,7 @@
  "field_order": [
   "properties",
   "guest",
+  "column_break_fsos9",
   "start_date",
   "end_date"
  ],
@@ -21,23 +22,32 @@
   },
   {
    "fieldname": "guest",
-   "fieldtype": "Data",
-   "label": "Guest"
+   "fieldtype": "Link",
+   "label": "Guest",
+   "options": "User"
   },
   {
    "fieldname": "start_date",
    "fieldtype": "Data",
-   "label": "Start Date"
+   "in_list_view": 1,
+   "label": "Start Date",
+   "reqd": 1
   },
   {
    "fieldname": "end_date",
    "fieldtype": "Data",
-   "label": "End Date"
+   "in_list_view": 1,
+   "label": "End Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fsos9",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-15 09:10:56.268153",
+ "modified": "2023-11-15 10:36:42.990268",
  "modified_by": "Administrator",
  "module": "Zim Habitat",
  "name": "Booking",
