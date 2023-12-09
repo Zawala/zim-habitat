@@ -11,18 +11,22 @@
   "title",
   "property_type",
   "host",
-  "location",
-  "column_break_kqaxc",
-  "price_per_night",
   "beds",
   "bedrooms",
+  "column_break_kqaxc",
+  "price_per_night",
+  "location",
   "descriptions_section",
   "description",
   "column_break_hshcb",
+  "image_section_section",
   "image_1",
   "image_2",
   "image_3",
+  "column_break_jxjrn",
   "image_4",
+  "image_5",
+  "image_6",
   "reviews_section",
   "reviews"
  ],
@@ -38,7 +42,7 @@
   },
   {
    "fieldname": "location",
-   "fieldtype": "Long Text",
+   "fieldtype": "Geolocation",
    "label": "Location"
   },
   {
@@ -121,11 +125,30 @@
    "fieldname": "image_4",
    "fieldtype": "Attach Image",
    "label": "Picture"
+  },
+  {
+   "fieldname": "image_section_section",
+   "fieldtype": "Section Break",
+   "label": "Image Section"
+  },
+  {
+   "fieldname": "column_break_jxjrn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image_5",
+   "fieldtype": "Attach Image",
+   "label": "Picture"
+  },
+  {
+   "fieldname": "image_6",
+   "fieldtype": "Attach Image",
+   "label": "Picture"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-15 10:40:48.447807",
+ "modified": "2023-12-02 09:39:39.788133",
  "modified_by": "Administrator",
  "module": "Zim Habitat",
  "name": "Property",
